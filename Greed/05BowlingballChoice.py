@@ -5,7 +5,8 @@ from collections import Counter
 #data=[1,2,3,3,2]
 n,m = 8,5
 data=[1,5,4,3,2,4,5,2]
-#dataSet=set(data)
+dataSet=set(data)
+
 countInfo = Counter(data)
 result=0
 print(countInfo)

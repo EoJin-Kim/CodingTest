@@ -22,4 +22,6 @@ def solution(food_times, k):
     result = sorted(q,key = lambda  x:x[1])
     return result[(k-sum_value)%length][1]
 
+
+print(solution([3,1,2],5))
 print(solution([8,6,4],15))
